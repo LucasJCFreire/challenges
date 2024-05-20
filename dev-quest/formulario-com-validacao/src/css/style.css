@@ -1,0 +1,100 @@
+body{
+    background-image: url(../img/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: auto 100vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagemDuvida{
+    width: 300px;
+    height: 111px;
+    margin-right: 60px;
+}
+
+.mensagemDuvida h1{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFF;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+}
+
+.mensagemDuvida p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.formularioDuvida{
+    width: 340px;
+    height: 378px;
+    background-color: #FFF;
+    padding: 21px;
+}
+
+.formularioDuvida .btEnviar{
+    width: 298px;
+    height: 41.13px;
+    background-color: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.formularioDuvida .nome,
+.formularioDuvida .email,
+.formularioDuvida .telefone{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.formularioDuvida .mensagem{
+    height: 100px;
+    width: 298px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.formularioDuvida .alertaCampoObrigatorio{
+    opacity: 0;
+    cursor: default;
+    font-size: 8px;
+    font-weight: 400px;
+    line-height: 9.38px;
+    color: #F52E2E;
+    padding-bottom: 6px;
+}
+
+.formularioDuvida .mensagemCamposObrigatorios{
+    margin-left: -5px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+
+.formularioDuvida .AlertaEsteCampoEhObrigatorio,
+.formularioDuvida .AlertaEsteCampoEhObrigatorio,
+.formularioDuvida .AlertaEsteCampoEhObrigatorio
+.formularioDuvida .AlertaEsteCampoEhObrigatorio{
+    border-color: #F52E2E;
+}
+
+.formularioDuvida .campoPreenchido,
+.formularioDuvida .campoPreenchido,
+.formularioDuvida .campoPreenchido,
+.formularioDuvida .campoPreenchido{
+    border-color: #00C22B;
+}

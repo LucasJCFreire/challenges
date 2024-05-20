@@ -1,0 +1,44 @@
+/*  ==================== Variables ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --color-primary: hsl(30, 10%, 34%);
+    --color-secundary: hsl(24, 5%, 18%);
+
+    --color-highlight-primary: hsl(14, 45%, 36%);
+    --color-highlight-secundary: hsl(332, 51%, 32%);
+
+    --color-background: hsl(30, 54%, 90%);
+    --color-background-main: hsl(0, 0%, 100%);
+    --color-element-background: hsl(330, 100%, 98%);
+    --color-border: hsl(30, 18%, 87%);
+
+    --font-primary: "Outfit", sans-serif;
+    --font-secundary: "Young Serif", serif;
+
+    --font-size-base: 1.6rem;
+    --font-size-medium: 2rem;
+    --font-size-large: 2.3rem;
+    --font-size-extra-large: 2.9rem;
+}
+
+/*  ==================== Resets ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ==================== Basic Structure ==================== */
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body {
+    background-color: var(--color-background);
+    min-width: 375px;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: var(--color-primary);
+}

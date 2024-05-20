@@ -1,0 +1,181 @@
+/*  ==================== Variables ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-primary: hsl(212, 21%, 14%);
+    --color-secundary: hsl(228, 12%, 48%);
+
+    --color-background: hsl(30, 38%, 92%);
+
+    --color-highlight: hsl(158, 36%, 37%);
+    --color-accent: hsl(156, 42%, 18%);
+
+    --color-light: hsl(0, 0%, 100%);
+
+    --font-primary: "Montserrat", sans-serif;
+    --font-secundary: "Fraunces", serif;
+
+    --font-size-small: 1.3rem;
+    --font-size-base: 1.4rem;
+    --font-size-large: 3.2rem;
+}
+
+/*  ==================== Resets ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ==================== Basic Structure ==================== */
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*  ==================== Main Styles ==================== */
+main {
+    background-color: var(--color-light);
+    display: flex;
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+picture {
+    width: 50%;
+}
+
+picture img {
+    max-width: 100%;
+}
+
+.product-info {
+    padding: 32px;
+    width: 50%;
+}
+
+.product-info .product-type {
+    font-size: var(--font-size-small);
+    color: var(--color-secundary);
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.product-info .product-title {
+    font-family: var(--font-secundary);
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    margin: 20px 10px 24px 0;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.product-info .product-description {
+    color: var(--color-secundary);
+    font-size: var(--font-size-small);
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.product-info .product-description span {
+    text-transform: uppercase;
+}
+
+.product-info .product-price {
+    margin-top: 23px;
+    font-family: var(--font-secundary);
+    font-size: var(--font-size-large);
+    color: var(--color-highlight);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.product-info .product-price span {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-small);
+    color: var(--color-secundary);
+    font-weight: 400;
+    text-decoration: line-through;
+    padding-left: 19px;
+}
+
+.product-info .btn-add-to-card {
+    width: 235px;
+    height: 48px;
+    background-color: var(--color-highlight);
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    color: var(--color-light);
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.product-info .btn-add-to-card:hover {
+    background-color: var(--color-accent);
+}
+.product-info .btn-add-to-card img {
+    margin-right: 10px;
+}
+
+@media (max-width: 620px){
+    main {
+        flex-direction: column;
+        width: 343px;
+        height: 611px;
+    }
+
+    picture {
+        width: 100%;
+    }
+
+    .product-info {
+        padding: 21.5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-info .product-type {
+        letter-spacing: 5px;
+    }
+
+    .product-info .product-title {
+        margin: 12px 10px 15px 0;
+    }
+
+    .product-info .product-description {
+        letter-spacing: 0.55px;
+        line-height: 1.8;
+        width: 295px;
+    }
+
+    .product-info .product-price {
+        margin-top: 20px;
+    }
+
+    .product-info .btn-add-to-card {
+        align-self: center;
+        width: 295px;
+        height: 48px;
+        margin-top: 16px;
+    }
+}

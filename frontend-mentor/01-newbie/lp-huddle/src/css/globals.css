@@ -1,0 +1,44 @@
+/*  ==================== Variables ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --color-primary: whitesmoke;
+    --color-secundary: hsl(257, 40%, 49%);
+    --color-background: hsl(257, 40%, 49%);
+    --color-highlight: hsl(300, 69%, 71%);
+
+    --font-primary: 'Open Sans', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+
+    --font-size-base: 1.7rem;
+    --font-size-medium: 1.8rem;
+    --font-size-large: 3.2rem;
+    --font-size-extra-large: 3.9rem;
+    --font-size-mega-large: 4.6rem;
+}
+
+/*  ==================== Resets ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*  ==================== Basic Structure ==================== */
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body {
+    max-width: 1440px;
+    min-width: 350px;
+    background-color: var(--color-background);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    color: var(--color-primary);
+}

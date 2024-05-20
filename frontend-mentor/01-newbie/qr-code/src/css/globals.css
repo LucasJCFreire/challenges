@@ -1,0 +1,69 @@
+/*  ==================== Variables ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900');
+
+:root {
+    --color-primary: hsl(220, 15%, 55%);
+    --color-highlight: hsl(218, 44%, 22%);
+    --color-background: hsl(212, 45%, 89%);
+    --color-element-background: hsl(0, 0%, 100%);
+
+    --font-primary: "Outfit", sans-serif;
+
+    --font-size-base: 1.5rem;
+    --font-size-medium: 2.2rem;
+}
+
+/*  ==================== Resets ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ==================== Basic Structure ==================== */
+html {
+    font-family: var(--font-primary);
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-background);
+    min-width: 375px;
+    max-width: 1440px;
+    background-color: var(--color-background);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*  ==================== Main Styles ==================== */
+main {
+    height: 500px;
+    width: 320px;
+    background-color: var(--color-element-background);
+    border-radius: 20px;
+}
+
+.main-image {
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+    margin: 16px;
+}
+
+.main-title {
+    font-size: var(--font-size-medium);
+    color: var(--color-highlight);
+    text-align: center;
+    margin: 4px 30px 15px 30px;
+}
+
+.main-text {
+    font-size: var(--font-size-base);
+    color: var(--color-primary);
+    text-align: center;
+    margin: 15px 30px;
+}

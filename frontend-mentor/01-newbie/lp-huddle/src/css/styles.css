@@ -1,0 +1,232 @@
+/*  ==================== Main Styles ==================== */
+main {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "home-image home-message"
+        "home-image footer";
+    grid-template-columns: 58% 42%;
+    grid-template-rows: 110px calc(100vh - 210px) 100px;
+}
+
+/*  ==================== Header Styles ==================== */
+.header {
+    grid-area: header;
+    align-self: self-end;
+    padding-left: 70px;
+    max-width: 375px;
+}
+
+.header img {
+    width: 205px;
+}
+
+/*  ==================== Home Image Styles ==================== */
+.home-image {
+    grid-area: home-image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.home-image img {
+    width: 100%;
+    max-width: 720px;
+    min-width: 200px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+/*  ==================== Home Message Styles ==================== */
+.home-message {
+    grid-area: home-message;
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    justify-content: center;
+    margin: auto;
+    margin-left: 0;
+    padding-bottom: 40px;
+}
+
+.home-message h1 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-extra-large);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.home-message h2 {
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.home-message button {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-medium);
+    color: var(--color-secundary);
+    font-weight: 400;
+    width: 200px;
+    height: 56px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 3px 3px 10px black;
+    margin-top: 30px;
+    transition: 0.3s all ease-in;
+}
+
+.home-message button:hover {
+    background-color: var(--color-highlight);
+    color: var(--color-primary);
+    border: 2px solid var(--color-highlight);
+}
+
+/*  ==================== Footer Styles ==================== */
+.footer {
+    grid-area: footer;
+    justify-self: end;
+    margin-right: 72px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.footer a {
+    margin: 20px 8px;
+}
+
+.footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--color-primary);
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    height: 40px;
+    width: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer i:hover {
+    color: var(--color-highlight);
+    border: 2px solid var(--color-highlight);
+}
+
+/*  ==================== Responsive Design ==================== */
+@media (max-width: 996px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+        background-position: top center;
+        margin: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*  ==================== Header Responsive ==================== */
+    .header {
+        align-self: flex-start;
+        display: flex;
+        align-items: end;
+        padding-left: 60px;
+        height: 140px;
+    }
+
+    .header img {
+        width: 250px;
+        padding-bottom: 20px;
+    }
+
+    /*  ==================== Home Image Responsive ==================== */
+    .home-image img {
+        padding: 90px 55px 0 55px;
+    }
+
+    /*  ==================== Home Message Responsive ==================== */
+    .home-message {
+        max-width: 100%;
+        margin-top: 115px;
+    }
+
+    .home-message h1 {
+        text-align: center;
+        font-size: var(--font-size-mega-large);
+        margin: 0;
+    }
+
+    .home-message h2 {
+        margin: 20px;
+        font-size: var(--font-size-large);
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .home-message button {
+        width: 400px;
+        height: 80px;
+        font-size: var(--font-size-large);
+        margin: 0 auto;
+        margin-top: 85px;
+    }
+
+    /*  ==================== Home Message Responsive ==================== */
+    .footer {
+        justify-self: center;
+        margin-right: 0;
+    }
+
+    .footer a {
+        margin: 90px 15px 0 15px;
+    }
+
+    .footer i {
+        font-size: 28px;
+        border: 2px solid var(--color-primary);
+        height: 50px;
+        width: 50px;
+    }
+}
+
+/*  ==================== Final adjustments for mobile  ==================== */
+@media (max-width: 678px) {
+    .header {
+        width: 80%;
+        margin: 0;
+        align-self: center;
+        padding-left: 10px;
+    }
+
+    .home-image {
+        width: 80%;
+    }
+    .home-image img {
+        padding: 90px 0 0 0px;
+    }
+    .home-message {
+        width: 75%;
+        padding: 0;
+        margin: auto 0;
+    }
+    .home-message h1 {
+        font-size: var(--font-size-extra-large);
+    }
+
+    .home-message h2 {
+        margin: 20px 0;
+        font-size: var(--font-size-large);
+    }
+
+    .home-message button {
+        margin: 0;
+        align-self: center;
+        width: 200px;
+        height: 80px;
+    }
+}

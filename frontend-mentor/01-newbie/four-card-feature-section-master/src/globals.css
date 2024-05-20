@@ -1,0 +1,171 @@
+/*  ==================== Variables ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: hsl(234, 12%, 34%);
+    --color-secundary: hsl(229, 6%, 66%);
+
+    --color-background: hsl(0, 0%, 98%);
+    --color-element-background: hsl(0, 0%, 100%);
+
+    --color-buttom: hsl(47, 88%, 63%);
+
+    --font-primary: "Poppins", sans-serif;
+
+    --font-size-small: 1.3rem;
+    --font-size-base: 1.5rem;
+    --font-size-medium: 2rem;
+    --font-responsive-large: 2.4rem;
+    --font-size-large: 3.7rem;
+}
+
+/*  ==================== Resets ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ==================== Styles ==================== */
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body {
+    padding: 42px 0 0 0;
+    background-color: var(--color-background);
+    min-width: 375px;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .subtitle {
+    font-size: var(--font-size-large);
+    color: var(--color-secundary);
+    font-weight: 200;
+}
+
+main .title {
+    font-size: var(--font-size-large);
+    color: var(--color-primary);
+    font-weight: 600;
+    line-height: 48px;
+}
+
+main .paragraph {
+    font-size: var(--font-size-base);
+    color: var(--color-secundary);
+    text-align: center;
+    max-width: 540px;
+    font-weight: 400;
+    padding-top: 22px;
+}
+
+.flex-container {
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.panel .item {
+    position: relative;
+    width: 350px;
+    height: 248px;
+    border-top: 4px solid;
+    background-color: var(--color-element-background);
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.panel-center .item {
+    margin: 30px;
+}
+
+.panel .item h3 {
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+    color: var(--color-primary);
+    padding-bottom: 10px;
+}
+
+.panel .item p {
+    color: var(--color-secundary);
+    font-weight: 400;
+    font-size: var(--font-size-small);
+}
+
+.panel .item img {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+
+.panel-left .item {
+    border-color: hsl(180, 62%, 55%);
+}
+
+.panel-center .item:nth-child(1) {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.panel-center .item:nth-child(2) {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.panel-right .item {
+    border-color: hsl(212, 86%, 64%);
+}
+
+@media (max-width: 1150px){
+    body {
+        padding: 80px 0;
+    }
+
+    .panel-center .item {
+        margin: 25px 0;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    main .paragraph {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    main .subtitle,
+    main .title {
+        font-size: var(--font-responsive-large);    
+    }
+
+    main .paragraph {
+    width: 310px;
+    }
+
+    .panel .item img {
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .panel .item {
+        width: 310px;
+        height: 222px;
+        padding: 20px 30px;
+    }
+}

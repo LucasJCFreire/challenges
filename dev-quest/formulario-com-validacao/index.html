@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Quest - Dev em dobro</title>
+</head>
+
+<body>
+    <div class="mensagemDuvida">
+        <h1>Ficou com dúvida?<br>Nos mande uma mensagem!</h1>
+        <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </p>
+    </div>
+
+    <form class="formularioDuvida" action="#" method="post">
+        <input type="text" name="nome" id="nome" class="nome campoObrigatorio" placeholder="Nome completo *">
+        <p class="alertaCampoObrigatorio">campo obrigatório</p>
+
+        <input type="text" name="email" id="email" class="email campoObrigatorio" placeholder="Email *">
+        <p class="alertaCampoObrigatorio">campo obrigatório</p>
+
+        <input type="tel" name="telefone" id="telefone" class="telefone campoObrigatorio" placeholder="Telefone *">
+        <p class="alertaCampoObrigatorio">campo obrigatório</p>
+
+        <textarea name="mensagem" id="mensagem" class="mensagem campoObrigatorio" placeholder="Mensagem *"></textarea>
+        <p class="alertaCampoObrigatorio">campo obrigatório</p>
+
+        <p class="mensagemCamposObrigatorios">* campos obrigatórios</p>
+        <button class="btEnviar" id="btEnviar" type="button">Enviar</button>
+    </form>
+
+    <script type="text/javascript" src="./src/js/validacao-fomulario.js"></script>
+</body>
+
+</html>

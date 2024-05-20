@@ -1,0 +1,24 @@
+/*  ==================== Common Styles ==================== */
+table {
+    text-align: center;
+    color: whitesmoke;
+}
+
+th {
+    width: 200px;
+    height: 50px;
+}
+
+td {
+    background-color: #424250;
+    height: 50px;
+}
+
+/*  ==================== Specific Styles ==================== */
+.moda th {
+    background-color: #BB86FC;
+}
+
+.casa th {
+    background-color: #00C4B4;
+}

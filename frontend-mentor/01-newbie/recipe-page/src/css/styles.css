@@ -1,0 +1,144 @@
+/*  ==================== Main Styles ==================== */
+main {
+    background-color: var(--color-background-main);
+    margin: 120px auto;
+    max-width: 736px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-title {
+    font-family: var(--font-secundary);
+    font-size: var(--font-size-extra-large);
+    color: var(--color-secundary);
+    margin: 40px 0 25px 0;
+}
+
+.main-subtitle {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+}
+
+/*  ==================== Common Styles ==================== */
+.preparation ul li span,
+.instructions ol li span {
+    font-weight: 700;
+}
+
+.ingredients,
+.instructions {
+    padding-bottom: 17px;
+    border-bottom: 0.5px solid var(--color-border);
+    margin-top: 32px;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    font-family: var(--font-secundary);
+    font-size: var(--font-size-large);
+    color: var(--color-highlight-primary);
+}
+
+.ingredients li::marker,
+.instructions li::marker  {
+    color: var(--color-highlight-primary);
+    font-weight: 700;
+}
+
+/*  ==================== Preparation Styles ==================== */
+.preparation {
+    background-color: var(--color-element-background);
+    margin: 35px 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.preparation h2 {
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+    color: var(--color-highlight-secundary);
+}
+
+.preparation ul {
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.preparation ul li::marker {
+    color: var(--color-highlight-secundary);
+}
+
+.preparation ul li {
+    margin-top: 12px;
+    padding-left: 20px;
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+/*  ==================== Ingredients Styles ==================== */
+.ingredients li {
+    list-style-type: square;
+}
+
+.ingredients li,
+.instructions li {
+    margin: 15px;
+    padding: 0 20px;
+    color: var(--color-primary);
+    font-size: var(--font-size-base);
+}
+
+/*  ==================== Nutrition Styles ==================== */
+.nutrition {
+    margin-top: 32px;
+}
+
+.nutrition p {
+    font-size: var(--font-size-base);
+    margin: 24px 0;
+}
+
+.nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: var(--font-size-base);
+}
+
+.nutrition table td {
+    padding: 15px 30px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.nutrition tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrition td:last-child {
+    color: var(--color-highlight-primary);
+    font-weight: 700;
+}
+
+/*  ==================== Responsive Design ==================== */
+@media (max-width:736px) {
+    main {
+        margin: 0;
+        border-radius: 0px;
+        padding: 30px;
+    }
+
+    .main-image {
+        width: 100vw;
+        min-width: 375px;
+        height: auto;
+        border-radius: 0px;
+        margin: -40px -40px 0 -40px;
+    }
+}

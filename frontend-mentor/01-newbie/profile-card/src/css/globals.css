@@ -1,0 +1,124 @@
+/*  ==================== Variables ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root {
+    --color-primary: hsl(229, 23%, 23%);
+    --color-secundary: hsl(227, 10%, 46%);
+
+    --color-background: hsl(185, 75%, 39%);
+    --color-element-background: hsl(240, 100%, 98%);
+    --color-border: hsl(0, 0%, 59%);
+
+    --font-primary: "Kumbh Sans", sans-serif;
+
+    --font-size-small: 1.2rem;
+    --font-size-base: 1.4rem;
+    --font-size-medium: 1.8rem;
+}
+
+/*  ==================== Resets ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ==================== Basic Structure ==================== */
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body {
+    background-color: var(--color-background);
+    min-width: 375px;
+    max-width: 1440px;
+    height: 100vh;
+    color: var(--color-primary);
+}
+
+/*  ==================== Main Background Styles ==================== */
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bg-top {
+    position: absolute;
+    left: -288px;
+    top: -504px;
+}
+
+.bg-bottom {
+    position: absolute;
+    right: -235px;
+    bottom: -630px;
+    z-index: -2;
+}
+
+/*  ==================== Card Styles ==================== */
+main .card {
+    height: 375px;
+    width: 350px;
+    border-radius: 15px;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-color: var(--color-element-background);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card .profile-photo {
+    position: absolute;
+    top: 88px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 5px solid var(--color-element-background);
+}
+
+/*  ==================== Profile Info Styles ==================== */
+.card .date-user {
+    margin: 205px 0 25px 0;
+    text-align: center;
+}
+
+.date-user .name,
+.date-social span {
+    font-size: var(--font-size-medium);
+    line-height: 2;
+}
+
+.date-user .city {
+    font-size: var(--font-size-base);
+}
+
+span {
+    font-weight: 700;
+}
+
+.card .date-social {
+    border-top: 0.1px solid var(--color-border);
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.card .date-social p {
+    text-align: center;
+    flex: 2;
+    font-size: var(--font-size-small);
+}
+
+.card .date-social p:nth-child(2) {
+    flex: 1;
+    margin: 0 -10px;
+}
