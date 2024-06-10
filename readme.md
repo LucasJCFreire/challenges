@@ -97,7 +97,7 @@
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/b7-web/bateria-com-teclas)
 [🖱](https://lucasjcfreire.github.io/challenges/b7-web/bateria-com-teclas)
 
-## Hora de codar
+## Outros
 
 - **Clone Spotify com Tailwind**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/hora-de-codar/clone-spotify-tailwind)
