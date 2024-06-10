@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/output.css" />
+    <title>Results summary component main</title>
+  </head>
+  <body
+    class="flex justify-center items-center max-w-[1440px] md:min-h-[1080px] mx-auto font-['Hanken-Grotesk']"
+  >
+    <main
+      class="w-[368px] md:w-[736px] h-[1024px] md:h-[512px] flex flex-col md:flex-row md:rounded-[32px] shadow-xl"
+    >
+      <div class="result-section">
+        <h1 class="text-2xl font-medium">Your Result</h1>
+        <div class="result-score">
+          <p id="score" class="text-white text-7xl font-extrabold">76</p>
+          <p class="text-xl block h-5">of 100</p>
+        </div>
+        <h2 class="font-bold text-3xl pb-4 scoreResult">Great</h2>
+        <p class="w-[260px] text-[18px] leading-6 scoreResult">
+          Your scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="flex flex-col w-[100%] md:w-[50%] p-[38px] font-semibold">
+        <h3 class="text-2xl font-semibold">Summary</h3>
+        <div class="card-points bg-bg-reaction mt-[30px]">
+          <div class="flex items-center">
+            <img src="./src/images/icon-reaction.svg" alt="reaction icon" />
+            <p class="text-color-reaction pl-3">Reaction</p>
+          </div>
+          <div class="flex items-center scoreResult">
+            <p>80 <span class="text-gray-span">/ 100</span></p>
+          </div>
+        </div>
+
+        <div class="card-points bg-bg-memory mt-4">
+          <div class="flex items-center">
+            <img src="./src/images/icon-memory.svg" alt="memory icon" />
+            <p class="text-color-memory pl-3">Memory</p>
+          </div>
+          <div class="flex items-center scoreResult">
+            <p>92 <span class="text-gray-span">/ 100</span></p>
+          </div>
+        </div>
+
+        <div class="card-points bg-bg-verbal mt-4">
+          <div class="flex items-center">
+            <img src="./src/images/icon-verbal.svg" alt="verbal icon" />
+            <p class="text-color-verbal pl-3">Verbal</p>
+          </div>
+          <div class="flex items-center scoreResult">
+            <p>61 <span class="text-gray-span">/ 100</span></p>
+          </div>
+        </div>
+
+        <div class="card-points bg-bg-visual mt-4">
+          <div class="flex items-center">
+            <img src="./src/images/icon-visual.svg" alt="visual icon" />
+            <p class="text-color-visual pl-3">Visual</p>
+          </div>
+          <div class="flex items-center scoreResult">
+            <p>72 <span class="text-gray-span">/ 100</span></p>
+          </div>
+        </div>
+        <button id="btn-continue" class="btn-continue">Continue</button>
+      </div>
+    </main>
+    <script src="./src/js/score.js"></script>
+  </body>
+</html>

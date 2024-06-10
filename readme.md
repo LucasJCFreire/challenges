@@ -38,10 +38,15 @@
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/recipe-page/)
 [✅](https://www.frontendmentor.io/solutions/used-div-for-clearer-styling-and-code-organization-a9Zjb6fMnD)
 
+- **Results summary component**
+[📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/results-summary-component-main/)
+[🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/results-summary-component-main/)
+
 - **Social links profile**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/social-links-profile)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/social-links-profile/)
 [✅](https://www.frontendmentor.io/solutions/organization-good-class-names-and-css-variables-prXZp-dr1a)
+
 
 #### Junior
 - **Advice generator app**
