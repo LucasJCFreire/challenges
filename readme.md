@@ -41,12 +41,16 @@
 - **Results summary component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/results-summary-component-main/)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/results-summary-component-main/)
+[✅](https://www.frontendmentor.io/solutions/practicing-tailwind-creating-components-and-variables-NkPLmPLu4o)
 
 - **Social links profile**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/social-links-profile)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/social-links-profile/)
 [✅](https://www.frontendmentor.io/solutions/organization-good-class-names-and-css-variables-prXZp-dr1a)
 
+- **Three Column preview card component main**
+[📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/three-column-preview-card-component-main)
+[🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/three-column-preview-card-component-main/)
 
 #### Junior
 - **Advice generator app**
@@ -100,8 +104,8 @@
 ## Outros
 
 - **Clone Spotify com Tailwind**
-[📕](https://github.com/LucasJCFreire/challenges/tree/main/hora-de-codar/clone-spotify-tailwind)
-[🖱](https://lucasjcfreire.github.io/challenges/hora-de-codar/clone-spotify-tailwind)
+[📕](https://github.com/LucasJCFreire/challenges/tree/main/outros/clone-spotify-tailwind)
+[🖱](https://lucasjcfreire.github.io/challenges/outros/clone-spotify-tailwind)
 
 <!--
 - **nomedoprojeto**

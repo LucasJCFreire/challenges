@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply w-[307px] h-[500px] flex flex-col p-[47px];
+  }
+  .titleCard {
+    @apply uppercase text-veryLightGray font-fontPrimary text-[41px] font-bold pt-[29px] pb-[20px];
+  }
+  .textCard {
+    @apply font-fontSecundary text-transparentWhite text-[15px] leading-[25px] w-[210px];
+  }
+
+  .btnCard {
+    @apply bg-veryLightGray border-2 hover:text-veryLightGray flex h-[48px] w-[146px] mt-auto rounded-full justify-center items-center text-[15px] font-bold;
+  }
+}
