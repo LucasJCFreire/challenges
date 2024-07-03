@@ -46,7 +46,7 @@
 - **Single price grid component master**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/single-price-grid-component-master)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/single-price-grid-component-master/)
-[✅]()
+[✅](https://www.frontendmentor.io/solutions/practicing-tailwind-creating-components-and-variables-N1sLPXmRkz)
 
 - **Social links profile**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/social-links-profile)

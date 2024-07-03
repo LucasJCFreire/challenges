@@ -19,6 +19,6 @@ Este é um desafio do Frontend Mentor onde o objetivo é criar uma página respo
 
 [Visualizar Online 🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/single-price-grid-component-master/)
 
-[Avaliação Frontend Mentor ✅]()
+[Avaliação Frontend Mentor ✅](https://www.frontendmentor.io/solutions/practicing-tailwind-creating-components-and-variables-N1sLPXmRkz)
 
 ![Visualização do Projeto](./src/images/preview.png)
