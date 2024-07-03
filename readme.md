@@ -51,6 +51,7 @@
 - **Three Column preview card component main**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/three-column-preview-card-component-main)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/three-column-preview-card-component-main/)
+[✅](https://www.frontendmentor.io/solutions/practicing-tailwind-creating-components-and-variables-onaUl6w8Vz)
 
 #### Junior
 - **Advice generator app**

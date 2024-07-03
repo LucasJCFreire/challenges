@@ -19,6 +19,6 @@ Este é um desafio do Frontend Mentor onde o objetivo é criar uma página respo
 
 [Visualizar Online 🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/three-column-preview-card-component-main/)
 
-[Avaliação Frontend Mentor ✅]()
+[Avaliação Frontend Mentor ✅](https://www.frontendmentor.io/solutions/practicing-tailwind-creating-components-and-variables-onaUl6w8Vz)
 
 ![Visualização do Projeto](./src/images/preview.png)
