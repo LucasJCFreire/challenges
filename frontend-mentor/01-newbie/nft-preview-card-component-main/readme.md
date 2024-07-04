@@ -18,6 +18,6 @@ Este é um desafio do Frontend Mentor onde o objetivo é criar uma página respo
 
 [Visualizar Online 🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/nft-preview-card-component-main/)
 
-[Avaliação Frontend Mentor ✅]()
+[Avaliação Frontend Mentor ✅](https://www.frontendmentor.io/solutions/practicing-tailwind-by-cdn-Ly80f5B9sA)
 
 ![Visualização do Projeto](./images/preview.png)

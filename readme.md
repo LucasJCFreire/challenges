@@ -21,7 +21,7 @@
 - **Nft preview card component main**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/nft-preview-card-component-main)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/nft-preview-card-component-main/)
-[✅]()
+[✅](https://www.frontendmentor.io/solutions/practicing-tailwind-by-cdn-Ly80f5B9sA)
 
 - **Product preview card component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/product-preview-card-component)
