@@ -18,6 +18,11 @@
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/lp-huddle/)
 [✅](https://www.frontendmentor.io/solutions/used-grid-and-flexbox-techniques-to-create-the-responsive-layout-WV8VbJ7Mix)
 
+- **Nft preview card component main**
+[📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/nft-preview-card-component-main)
+[🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/nft-preview-card-component-main/)
+[✅]()
+
 - **Product preview card component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/product-preview-card-component)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/product-preview-card-component/)

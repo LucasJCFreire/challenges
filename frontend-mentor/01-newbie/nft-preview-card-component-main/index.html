@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              fontPrimary: ["Outfit", "sans-serif"],
+            },
+            colors: {
+              softBlue: "hsl(215, 51%, 70%)",
+              cyan: "hsl(178, 100%, 50%)",
+              cyanBg: "hsl(178, 100%, 50%,40%)",
+              bgColor: "hsl(216, 55%, 11%)",
+              ringColor: "hsl(217, 55%, 10%)",
+              elementColor: "hsl(216, 50%, 16%)",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Nft preview card component main</title>
+  </head>
+  <body
+    class="max-w-[1440px] min-h-[900px] flex items-center justify-center font-fontPrimary mx-auto bg-bgColor"
+  >
+    <main
+      class="w-[350px] h-[596px] bg-elementColor ring-[17px] ring-ringColor p-[24px] rounded-[14px] relative"
+    >
+      <img
+        class="rounded-[8px]"
+        src="./images/image-equilibrium.jpg"
+        alt="Image Equilibrium"
+      />
+      <div
+        class="absolute top-[24px] hover:bg-cyanBg w-[302px] h-[302px] rounded-[8px] left-[50%] translate-x-[-50%] flex items-center justify-center cursor-pointer group"
+      >
+        <img
+          class="w-[48px] hidden group-hover:block"
+          src="./images/icon-view.svg"
+          alt="Icon view"
+        />
+      </div>
+      <h1
+        class="font-bold text-white text-[21.5px] pt-[22px] pb-[14px] cursor-pointer hover:text-cyan"
+      >
+        Equilibrium #3429
+      </h1>
+      <p class="font-light text-softBlue text-[18px]">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div
+        class="flex justify-between border-b border-softBlue pt-[20px] pb-[22px]"
+      >
+        <div class="flex items-center">
+          <img
+            class="w-[12px] h-[20px]"
+            src="./images/icon-ethereum.svg"
+            alt="Icon ethereum"
+          />
+          <p class="text-cyan text-[16px] pl-[7px]">0.041 ETH</p>
+        </div>
+        <div class="flex items-center">
+          <img
+            class="w-[16px] h-[16px]"
+            src="./images/icon-clock.svg"
+            alt="Icon clock"
+          />
+          <p class="text-softBlue text-[16px] pl-[7px]">3 days left</p>
+        </div>
+      </div>
+      <div class="flex items-center pt-[15px]">
+        <img
+          class="w-[33px] rounded-full rouded border-2 border-white"
+          src="./images/image-avatar.png"
+          alt="image avatar"
+        />
+        <p class="text-softBlue text-[16px] pl-[18px]">
+          Creation of
+          <span class="text-white cursor-pointer hover:text-cyan"
+            >Jules Wyvern</span
+          >
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
