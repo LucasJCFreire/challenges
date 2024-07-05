@@ -12,7 +12,7 @@ body {
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: variables.$veryPaleBlue;
+  background-color: variables.$paleBlue;
 }
 
 main {
@@ -24,6 +24,7 @@ main {
   width: 450px;
   border-radius: 20px;
   background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   .title {
     @include mixins.text-fswc(
       variables.$font-primary,
@@ -98,6 +99,7 @@ main {
     border: none;
     border-radius: 10px;
     margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     @include mixins.text-fswc(
       variables.$font-primary,
       15px,

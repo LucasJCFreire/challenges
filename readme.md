@@ -26,7 +26,7 @@
 - **Order summary component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/order-summary-component-main)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/order-summary-component-main/)
-[✅]()
+[✅](https://www.frontendmentor.io/solutions/practicing-sass---partials-mixins-and-variables-OaP5D4SE_7)
 
 - **Product preview card component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/product-preview-card-component)
