@@ -1,0 +1,136 @@
+@use "./abstract/reset";
+@use "./abstract/variables";
+@use "./abstract/mixins";
+
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: variables.$veryPaleBlue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  height: 696px;
+  width: 450px;
+  border-radius: 20px;
+  background-color: white;
+  .title {
+    @include mixins.text-fswc(
+      variables.$font-primary,
+      28px,
+      900,
+      variables.$darkBlue
+    );
+    padding-top: 46px;
+    padding-bottom: 17px;
+  }
+  .description {
+    @include mixins.text-fswc(
+      variables.$font-primary,
+      16px,
+      600,
+      variables.$desaturatedBlue
+    );
+    width: 300px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .plan {
+    display: flex;
+    width: 354px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: variables.$veryPaleBlue;
+    padding: 24px;
+    margin-top: 21px;
+    margin-bottom: 33px;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+    }
+    div {
+      flex: 1;
+      padding-left: 20px;
+      p {
+        @include mixins.text-fswc(
+          variables.$font-primary,
+          16px,
+          400,
+          variables.$desaturatedBlue
+        );
+      }
+      .text-plan {
+        font-weight: 900;
+        color: variables.$darkBlue;
+        margin-bottom: 6px;
+      }
+    }
+    a {
+      @include mixins.text-fswc(
+        variables.$font-primary,
+        14px,
+        600,
+        variables.$brightBlue
+      );
+      text-decoration: underline;
+      &:hover {
+        color: variables.$desaturatedBlue;
+      }
+    }
+  }
+  .btn-payment {
+    width: 354px;
+    height: 50px;
+    background-color: variables.$brightBlue;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    @include mixins.text-fswc(
+      variables.$font-primary,
+      15px,
+      900,
+      variables.$veryPaleBlue
+    );
+    &:hover {
+      cursor: pointer;
+      background-color: variables.$desaturatedBlue;
+    }
+  }
+  .cancel {
+    @include mixins.text-fswc(
+      variables.$font-primary,
+      15px,
+      800,
+      variables.$desaturatedBlue
+    );
+    &:hover {
+      color: variables.$darkBlue;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+
+@media (max-width: 470px) {
+  main {
+    height: 696px;
+    width: 330px;
+  }
+}

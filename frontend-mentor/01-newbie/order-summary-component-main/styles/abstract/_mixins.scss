@@ -1,0 +1,6 @@
+@mixin text-fswc($ffamily, $fsize, $fweight, $fcolor) {
+  font-family: $ffamily;
+  font-size: $fsize;
+  font-weight: $fweight;
+  color: $fcolor;
+}

@@ -23,6 +23,11 @@
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/nft-preview-card-component-main/)
 [✅](https://www.frontendmentor.io/solutions/practicing-tailwind-by-cdn-Ly80f5B9sA)
 
+- **Order summary component**
+[📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/order-summary-component-main)
+[🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/order-summary-component-main/)
+[✅]()
+
 - **Product preview card component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/product-preview-card-component)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/product-preview-card-component/)
