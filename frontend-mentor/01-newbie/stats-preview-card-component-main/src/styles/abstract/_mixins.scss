@@ -1,0 +1,10 @@
+@mixin text-f-s-w-c($family, $size, $weight, $color) {
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin width-max($percent: 380px) {
+  max-width: $percent;
+}

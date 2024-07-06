@@ -1,0 +1,124 @@
+@use "./abstract/reset";
+@use "./abstract/variables";
+@use "./abstract/mixins";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: variables.$veryDarkBlue;
+  max-width: 1440px;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+main {
+  background-color: variables.$darkDesaturatedBlue;
+  display: flex;
+  width: 1110px;
+  height: 446px;
+  border-radius: 10px;
+  overflow: hidden;
+  .heroDescription {
+    flex: 1;
+    padding: 72px;
+    h1 {
+      @include mixins.width-max;
+      @include mixins.text-f-s-w-c(variables.$fontPrimary, 3.6rem, 700, white);
+      span {
+        color: variables.$softViolet;
+      }
+    }
+    h2 {
+      @include mixins.width-max;
+      @include mixins.text-f-s-w-c(
+        variables.$fontPrimary,
+        1.5rem,
+        500,
+        variables.$slightlyTransparentWhite
+      );
+      line-height: 1.7;
+      margin: 24px 0 69px 0;
+    }
+    .statistic {
+      @include mixins.width-max(350px);
+      display: flex;
+      justify-content: space-between;
+      div {
+        :nth-child(1) {
+          @include mixins.text-f-s-w-c(
+            variables.$fontPrimary,
+            2.5rem,
+            600,
+            white
+          );
+          line-height: 1.4;
+        }
+        :nth-child(2) {
+          @include mixins.text-f-s-w-c(
+            variables.$fontSecundary,
+            1.3rem,
+            600,
+            variables.$slightlyTransparentWhite
+          );
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  picture {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: variables.$violetmask;
+      filter: saturate(2.6) brightness(0.5) opacity(0.6);
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 1120px) {
+  body {
+    min-height: 950px;
+  }
+  main {
+    flex-direction: column-reverse;
+    max-width: 360px;
+    height: 780px;
+    picture,
+    img,
+    ::after {
+      height: 265px;
+    }
+    .heroDescription {
+      max-width: 360px;
+      padding: 50px;
+      h1,
+      h2,
+      .statistic {
+        @include mixins.width-max(70%);
+        text-align: center;
+        max-width: 100%;
+      }
+      h1 {
+        font-size: 2.8rem;
+        text-align: center;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      .statistic {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+      }
+    }
+  }
+}
