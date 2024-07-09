@@ -63,10 +63,15 @@
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/social-links-profile/)
 [✅](https://www.frontendmentor.io/solutions/organization-good-class-names-and-css-variables-prXZp-dr1a)
 
+- **Social proof section**
+[📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/social-proof-section-master)
+[🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/social-proof-section-master/)
+[✅]()
+
 - **Stats preview card component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/stats-preview-card-component-main)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/stats-preview-card-component-main/)
-[✅]()
+[✅](https://www.frontendmentor.io/solutions/practicing-sass---partials-mixins-and-variables-skmC2aHF2Q)
 
 - **Three Column preview card component main**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/three-column-preview-card-component-main)
