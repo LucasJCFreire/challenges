@@ -19,6 +19,6 @@ Este é um desafio do Frontend Mentor onde o objetivo é criar uma página respo
 
 [Visualizar Online 🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/social-proof-section-master/)
 
-[Avaliação Frontend Mentor ✅]()
+[Avaliação Frontend Mentor ✅](https://www.frontendmentor.io/solutions/practicing-sass---partials-mixins-and-variables-3f4-RW-gtR)
 
 ![Visualização do Projeto](./src/images/preview.png)

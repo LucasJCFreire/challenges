@@ -31,9 +31,6 @@ main {
     padding-bottom: 28px;
     letter-spacing: -2.5px;
     line-height: 0.87;
-    span {
-      color: black;
-    }
   }
   p {
     @include font-sw(1.8rem, 500);

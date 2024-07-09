@@ -12,27 +12,30 @@
     <title>Social proof section</title>
   </head>
   <body>
-    <picture class="top">
-      <source
-        media="(min-width: 800px)"
-        srcset="./src/images/bg-pattern-top-desktop.svg"
-      />
-      <img
-        src="./src/images/bg-pattern-top-mobile.svg"
-        alt="background gray abstract top image"
-      />
-    </picture>
-    <picture class="bottom">
-      <source
-        media="(min-width: 800px)"
-        srcset="./src/images/bg-pattern-bottom-desktop.svg"
-      />
-      <img
-        src="./src/images/bg-pattern-bottom-mobile.svg"
-        alt="background gray abstract bottom image"
-      />
-    </picture>
     <main>
+      <picture class="top" aria-label="background gray abstract top image">
+        <source
+          media="(min-width: 800px)"
+          srcset="./src/images/bg-pattern-top-desktop.svg"
+        />
+        <img
+          src="./src/images/bg-pattern-top-mobile.svg"
+          alt="background gray abstract top image"
+        />
+      </picture>
+      <picture
+        class="bottom"
+        aria-label="background gray abstract bottom image"
+      >
+        <source
+          media="(min-width: 800px)"
+          srcset="./src/images/bg-pattern-bottom-desktop.svg"
+        />
+        <img
+          src="./src/images/bg-pattern-bottom-mobile.svg"
+          alt="background gray abstract bottom image"
+        />
+      </picture>
       <h1><span>10,000+</span> of our users love our products.</h1>
       <p>
         We only provide great products combined with excellent customer service.
