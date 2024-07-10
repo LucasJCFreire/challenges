@@ -1,10 +1,9 @@
 # Challenges
 
-## Frontend Mentor
-
-#### Newbie
-
 <table width='100%'>
+  <tr>
+    <th colspan="3">Frontend Mentor - Newbie</th>
+  </tr>
   <tr>
     <th width= '60%'>Descrição</th>
     <th width= '25%'>Tecnologias</th>
@@ -414,15 +413,13 @@
       >
     </td>
   </tr>
-</table>
-
-#### Junior
-
-<table width='100%'>
   <tr>
-    <th width= '60%'>Descrição</th>
-    <th width= '25%'>Tecnologias</th>
-    <th width= '15%'>Links</th>
+    <th colspan="3">Frontend Mentor - Junior</th>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <th>Tecnologias</th>
+    <th>Links</th>
   </tr>
   <tr>
     <td>Advice generator app</td>
@@ -455,15 +452,13 @@
       >
     </td>
   </tr>
-</table>
-
-## DevQuest
-
-<table width='100%'>
   <tr>
-    <th width= '60%'>Descrição</th>
-    <th width= '25%'>Tecnologias</th>
-    <th width= '15%'>Links</th>
+    <th colspan="3">DevQuest - Dev em Dobro</th>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <th>Tecnologias</th>
+    <th>Links</th>
   </tr>
   <tr>
     <td>Formulário com validação</td>
@@ -595,7 +590,7 @@
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://pokedex-rct-first.vercel.app/"
+        href="https://challenges-six-xi.vercel.app/"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -654,15 +649,13 @@
       >
     </td>
   </tr>
-</table>
-
-## B7Web
-
-<table width='100%'>
   <tr>
-    <th width= '60%'>Descrição</th>
-    <th width= '25%'>Tecnologias</th>
-    <th width= '15%'>Links</th>
+    <th colspan="3">B7Web</th>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <th>Tecnologias</th>
+    <th>Links</th>
   </tr>
   <tr>
     <td>Bateria com teclas</td>
@@ -691,11 +684,9 @@
       >
     </td>
   </tr>
-</table>
-
-## Hora de codar
-
-<table width='100%'>
+  <tr>
+    <th colspan="3">Hora de codar</th>
+  </tr>
   <tr>
     <th width= '60%'>Descrição</th>
     <th width= '25%'>Tecnologias</th>
