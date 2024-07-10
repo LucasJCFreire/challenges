@@ -66,7 +66,7 @@
 - **Social proof section**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/social-proof-section-master)
 [🖱](https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/social-proof-section-master/)
-[✅]()
+[✅](https://www.frontendmentor.io/solutions/practicing-sass---partials-mixins-and-variables-3f4-RW-gtR)
 
 - **Stats preview card component**
 [📕](https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/stats-preview-card-component-main)
