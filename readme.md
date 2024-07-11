@@ -6,9 +6,9 @@
     <th colspan="3">Frontend Mentor - Newbie</th>
   </tr>
   <tr>
-    <th width= '60%'>Description</th>
+    <th width= '55%'>Description</th>
     <th width= '25%'>Technologies</th>
-    <th width= '15%'>Links</th>
+    <th width= '20%'>Links</th>
   </tr>
   <tr>
     <td>Blog preview card</td>
@@ -65,7 +65,7 @@
     </td>
   </tr>
   <tr>
-    <td>Huddle landing page with a single introductory section</td>
+    <td>Huddle landing page with a single section</td>
     <td>
       <img
         width="30px"
@@ -689,9 +689,9 @@
     <th colspan="3">Hora de codar</th>
   </tr>
   <tr>
-    <th width= '60%'>Description</th>
-    <th width= '25%'>Technologies</th>
-    <th width= '15%'>Links</th>
+    <th>Description</th>
+    <th>Technologies</th>
+    <th>Links</th>
   </tr>
   <tr>
     <td>Clone Spotify com Tailwind</td>
@@ -724,9 +724,9 @@
     <th colspan="3">Alura</th>
   </tr>
   <tr>
-    <th width= '60%'>Description</th>
-    <th width= '25%'>Technologies</th>
-    <th width= '15%'>Links</th>
+    <th>Description</th>
+    <th>Technologies</th>
+    <th>Links</th>
   </tr>
   <tr>
     <td>Calmaria Spa</td>
