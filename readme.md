@@ -1,12 +1,13 @@
-# Challenges
-
 <table width='100%'>
+  <tr>
+    <th colspan="3"><img src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/challenges_main.png" /></th>
+  </tr>
   <tr>
     <th colspan="3">Frontend Mentor - Newbie</th>
   </tr>
   <tr>
-    <th width= '60%'>Descrição</th>
-    <th width= '25%'>Tecnologias</th>
+    <th width= '60%'>Description</th>
+    <th width= '25%'>Technologies</th>
     <th width= '15%'>Links</th>
   </tr>
   <tr>
@@ -417,8 +418,8 @@
     <th colspan="3">Frontend Mentor - Junior</th>
   </tr>
   <tr>
-    <th>Descrição</th>
-    <th>Tecnologias</th>
+    <th>Description</th>
+    <th>Technologies</th>
     <th>Links</th>
   </tr>
   <tr>
@@ -456,8 +457,8 @@
     <th colspan="3">DevQuest - Dev em Dobro</th>
   </tr>
   <tr>
-    <th>Descrição</th>
-    <th>Tecnologias</th>
+    <th>Description</th>
+    <th>Technologies</th>
     <th>Links</th>
   </tr>
   <tr>
@@ -653,8 +654,8 @@
     <th colspan="3">B7Web</th>
   </tr>
   <tr>
-    <th>Descrição</th>
-    <th>Tecnologias</th>
+    <th>Description</th>
+    <th>Technologies</th>
     <th>Links</th>
   </tr>
   <tr>
@@ -688,8 +689,8 @@
     <th colspan="3">Hora de codar</th>
   </tr>
   <tr>
-    <th width= '60%'>Descrição</th>
-    <th width= '25%'>Tecnologias</th>
+    <th width= '60%'>Description</th>
+    <th width= '25%'>Technologies</th>
     <th width= '15%'>Links</th>
   </tr>
   <tr>
@@ -715,6 +716,37 @@
       >
       <a
         href="https://lucasjcfreire.github.io/challenges/hora-de-codar/clone-spotify-tailwind"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
+      >
+    </td>
+  </tr>
+  <tr>
+    <th colspan="3">Alura</th>
+  </tr>
+  <tr>
+    <th width= '60%'>Description</th>
+    <th width= '25%'>Technologies</th>
+    <th width= '15%'>Links</th>
+  </tr>
+  <tr>
+    <td>Calmaria Spa</td>
+    <td>
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/sass_large.svg"
+      />
+    </td>
+    <td>
+      <a
+        href="https://github.com/LucasJCFreire/challenges/tree/main/alura/calmaria-spa"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
+      >
+      <a
+        href="https://lucasjcfreire.github.io/challenges/alura/calmaria-spa"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
