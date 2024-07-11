@@ -710,11 +710,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/outros/clone-spotify-tailwind"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/hora-de-codar/clone-spotify-tailwind"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/outros/clone-spotify-tailwind"
+        href="https://lucasjcfreire.github.io/challenges/hora-de-codar/clone-spotify-tailwind"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
