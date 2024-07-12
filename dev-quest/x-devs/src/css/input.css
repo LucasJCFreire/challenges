@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .seta {
+    @apply bg-white w-[30px] h-[30px] rounded-full border-none cursor-pointer flex items-center justify-center shadow-lg transition-all hover:bg-secundaryColor sm:w-[70px] sm:h-[70px];
+  }
+  .selecionado {
+    opacity: 1 !important;
+    z-index: 1;
+  }
+
+  .fundo {
+    background-image: url("../images/fundo-1.jpg");
+  }
+}

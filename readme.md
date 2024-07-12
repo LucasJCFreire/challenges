@@ -650,6 +650,21 @@
       >
     </td>
   </tr>
+    <td>X-devs</td>
+    <td>
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg" />
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/tailwind_large.svg" />
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/javascript_large.svg" />
+    </td>
+    <td>
+      <a href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/x-devs">
+        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/>
+      </a>
+      <a href="https://lucasjcfreire.github.io/challenges/dev-quest/x-devs">
+        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/>
+      </a>
+    </td>
+  </tr>
   <tr>
     <th colspan="3">B7Web</th>
   </tr>
@@ -702,10 +717,6 @@
       />
       <img
         width="30px"
-        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/css_large.svg"
-      />
-      <img
-        width="30px"
         src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/tailwind_large.svg"
       />
     </td>
@@ -718,6 +729,19 @@
         href="https://lucasjcfreire.github.io/challenges/hora-de-codar/clone-spotify-tailwind"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
+    </td>
+  </tr>
+  <tr>
+  <td>Costs</td>
+    <td>
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg" />
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/react_large.svg" />
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/styled_large.svg" />
+    </td>
+    <td>
+      <a href="https://github.com/LucasJCFreire/challenges/tree/main/hora-de-codar/costs">
+        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/>
+      </a>
     </td>
   </tr>
   <tr>
@@ -752,3 +776,20 @@
     </td>
   </tr>
 </table>
+
+  <!-- <tr>
+  <td>X-devs</td>
+    <td>
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg" />
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/tailwind_large.svg" />
+      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/javascript_large.svg" />
+    </td>
+    <td>
+      <a href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/x-devs">
+        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/>
+      </a>
+      <a href="https://lucasjcfreire.github.io/challenges/dev-quest/x-devs">
+        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/>
+      </a>
+    </td>
+  </tr> -->
