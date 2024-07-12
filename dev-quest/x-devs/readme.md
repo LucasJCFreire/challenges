@@ -4,7 +4,7 @@
     <tr>
     <th colspan="2">
     <a href="https://lucasjcfreire.github.io/challenges/dev-quest/x-devs" title="Click to acess deploy">
-      <img src="./src/images/preview.gif" />
+      <img src="./src/images/preview.png" />
       <p>Click to acess deploy!</p>
     </a>
     </th>
@@ -28,8 +28,8 @@
     <td><p>Este é um projeto inspirado no tutorial do canal Dev em Dobro, onde foi desenvolvido um slider utilizando HTML, CSS e JavaScript. No entanto, nesta versão, optei por utilizar HTML, Tailwind CSS e JavaScript.</p></td>
   </tr>
   <tr>
-    <th><p>Skills / Expertise</p></th>
-    <th><p>Habilidades / Expertise</p></th>
+    <th><p>Skills / Techniques</p></th>
+    <th><p>Habilidades / Técnicas</p></th>
   </tr>
 <tr>
   <th colspan="2">
@@ -52,12 +52,7 @@
   </tr>
   <tr>
     <th colspan="2">
-      <p>Lucas Jones Campos Freire</p>
-      <p>Frontend Developer</p>
-    </th>
-  </tr>
-  <tr>
-    <th colspan="2">
+      <p>Lucas Jones - Frontend Developer</p>
       <a href="https://www.linkedin.com/in/LucasJCFreire" title="LinkedIn Profile"><img src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/linkedin_small.svg" alt="LinkedIn Profile" style="margin-right: 10px;"></a>
       <a href="https://www.frontendmentor.io/profile/LucasJCFreire" title="Frontend Mentor Profile"><img src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/frontendmentor_small.svg" alt="Frontend Mentor Profile" style="margin-right: 10px;"></a>
       <a href="https://github.com/LucasJCFreire" title="GitHub Profile"><img src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/github_small.svg" alt="GitHub Profile" style="margin-right: 10px;"></a>
