@@ -776,20 +776,3 @@
     </td>
   </tr>
 </table>
-
-  <!-- <tr>
-  <td>X-devs</td>
-    <td>
-      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg" />
-      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/tailwind_large.svg" />
-      <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/javascript_large.svg" />
-    </td>
-    <td>
-      <a href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/x-devs">
-        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/>
-      </a>
-      <a href="https://lucasjcfreire.github.io/challenges/dev-quest/x-devs">
-        <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/>
-      </a>
-    </td>
-  </tr> -->

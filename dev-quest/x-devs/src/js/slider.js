@@ -6,6 +6,11 @@ let devName = document.querySelector("#devName");
 let devDescription = document.querySelector("#devDescription");
 let count = 1;
 
+personagens.forEach((personagem) => {
+  new Image().src = `./src/images/${personagem.imagem}`;
+  new Image().src = `./src/images/${personagem.background}`;
+});
+
 leftBtn.addEventListener("click", () => {
   count = count - 1;
   if (count < 1) {
