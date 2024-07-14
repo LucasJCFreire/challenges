@@ -65,6 +65,37 @@
     </td>
   </tr>
   <tr>
+    <td>Interactive rating component</td>
+    <td>
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/sass_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/javascript_large.svg"
+      />
+    </td>
+    <td>
+      <a
+        href="https://github.com/LucasJCFreire/challenges/tree/main/frontend-mentor/01-newbie/interactive-rating-component-main"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
+      >
+      <a
+        href="https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/interactive-rating-component-main/"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
+      >
+      <a
+        href="###"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/approved.svg"/></a
+      >
+    </td>
+  </tr>
+  <tr>
     <td>Huddle landing page with a single section</td>
     <td>
       <img

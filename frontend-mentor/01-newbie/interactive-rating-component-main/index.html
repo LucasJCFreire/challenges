@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="./src/css/styles.min.css" />
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <div class="valuation">
+        <div class="star">
+          <img src="./src/images/icon-star.svg" alt="icon star" />
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating">
+          <p class="rate">1</p>
+          <p class="rate">2</p>
+          <p class="rate">3</p>
+          <p class="rate">4</p>
+          <p class="rate">5</p>
+        </div>
+        <button id="btnSubmit">Submit!</button>
+      </div>
+      <div class="result hidden">
+        <img
+          src="./src/images/illustration-thank-you.svg"
+          alt="thank you image"
+        />
+        <p class="ratingSelected">You selected 4 ou of 5</p>
+        <h2>Thank you!</h2>
+        <p class="thanksText">
+          We appreciate you talking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

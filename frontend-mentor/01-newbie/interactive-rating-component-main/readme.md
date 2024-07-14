@@ -1,9 +1,9 @@
-# X-Dev
+# Interactive rating component
 
 <table>
     <tr>
     <th colspan="2">
-    <a href="https://lucasjcfreire.github.io/challenges/dev-quest/x-devs" title="Click to access deploy">
+    <a href="https://lucasjcfreire.github.io/challenges/frontend-mentor/01-newbie/interactive-rating-component-main/" title="Click to access deploy">
       <img src="./src/images/preview.png" />
       <p>Click to access deploy!</p>
     </a>
@@ -24,8 +24,8 @@
     <th><p>Sobre o Projeto</p></th>
   </tr>
   <tr>
-    <td><p>This is a project inspired by the tutorial on the Dev em Dobro channel, where a slider was developed using HTML, CSS and JavaScript. However, in this version, I chose to use HTML, Tailwind CSS and JavaScript.</p></td>
-    <td><p>Este é um projeto inspirado no tutorial do canal Dev em Dobro, onde foi desenvolvido um slider utilizando HTML, CSS e JavaScript. No entanto, nesta versão, optei por utilizar HTML, Tailwind CSS e JavaScript.</p></td>
+    <td><p>Frontend Mentor challenge to create an interactive rating component using HTML, Sass, and JavaScript. The goal is to allow users to select and submit a rating, displaying a thank-you message upon submission. I added a confetti effect when clicking the submit button, something that was not in the original scope, enriching the interaction and making it more enjoyable.</p></td>
+    <td><p>Desafio do Frontend Mentor para criar um componente interativo de avaliação usando HTML, Sass e JavaScript. O objetivo é permitir que usuários selecionem e submetam uma nota, exibindo uma mensagem de agradecimento. Adicionei um efeito de confetti ao clicar no botão de envio, algo que não estava no escopo original, enriquecendo a interação e tornando-a mais divertida.</p></td>
   </tr>
   <tr>
     <th><p>Skills / Techniques</p></th>
@@ -34,7 +34,7 @@
 <tr>
   <th colspan="2">
     <img alt="Static Badge" src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Sass%20CSS-DB7093?style=flat-square&logo=tailwind-css&logoColor=white">
     <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
     <img alt="Static Badge" src="https://img.shields.io/badge/Responsive%20Design-1DA1F2?style=flat-square&logo=css3&logoColor=white">
     <img alt="Static Badge" src="https://img.shields.io/badge/Flexbox-1DA1F2?style=flat-square&logo=css3&logoColor=white">

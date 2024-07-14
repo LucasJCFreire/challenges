@@ -1,0 +1,138 @@
+@import "./abstract/variables";
+@import "./abstract/reset";
+
+html {
+  font-family: $primaryFont;
+  font-size: 62.5%;
+  background-color: $bgColor;
+}
+body {
+  max-width: 1440px;
+  min-width: 350px;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+main {
+  background-color: $panelColor;
+  width: 410px;
+  height: 414px;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  padding: 31px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  @media (max-width: 500px) {
+    padding: 10px;
+    width: 328px;
+    height: 362px;
+  }
+  .valuation {
+    display: flex;
+    flex-direction: column;
+    .star {
+      @extend .rate;
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: $primaryryColor;
+      margin: 36px 0 12px 0;
+      @media (max-width: 500px) {
+        margin: 10px 0;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: $secundaryColor;
+      line-height: 1.5;
+    }
+    .rating {
+      display: flex;
+      gap: 23px;
+      margin: 25px 0 32px 0;
+      p:hover {
+        transition: background 0.3s ease-in-out;
+        background-color: $orangeAccent;
+        color: $panelColor;
+        cursor: pointer;
+      }
+    }
+    .rate {
+      width: 50px;
+      height: 50px;
+      border-radius: 26px;
+      background-color: $btnRate;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+    }
+    button {
+      border: none;
+      color: $panelColor;
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      background: $orangeAccent;
+      border-radius: 50px;
+      width: 340px;
+      height: 45px;
+      @media (max-width: 500px) {
+        width: 100%;
+      }
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        background-color: $primaryryColor;
+        cursor: pointer;
+      }
+    }
+  }
+  .result {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 50%;
+    }
+    h2 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: $primaryryColor;
+    }
+    .thanksText {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: $secundaryColor;
+      line-height: 1.5;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .ratingSelected {
+      width: 194px;
+      height: 34px;
+      border-radius: 50px;
+      background-color: $btnRate;
+      color: $orangeAccent;
+      line-height: 34px;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin: 30px 0 44px 0;
+    }
+  }
+}
+
+.actived {
+  background-color: $primaryryColor !important;
+  color: $panelColor;
+}
+
+.hidden {
+  display: none !important;
+}
