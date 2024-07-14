@@ -7,6 +7,9 @@
       <img src="./src/images/preview.png" />
       <p>Click to access deploy!</p>
     </a>
+    <a href="https://www.frontendmentor.io/solutions/practicing-sass---partials-mixins-and-variables-rXfvDdB9hW" title="Click to access deploy">
+      <p>Click here to check the evaluation on the Frontend Mentor</p>
+    </a>
     </th>
   </tr>
   <tr>

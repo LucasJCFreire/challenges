@@ -90,7 +90,7 @@
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
       <a
-        href="###"
+        href="https://www.frontendmentor.io/solutions/practicing-sass---partials-mixins-and-variables-rXfvDdB9hW"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/approved.svg"/></a
       >
     </td>
