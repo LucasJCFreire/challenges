@@ -1,0 +1,143 @@
+.s-download {
+  width: 100%;
+  height: 850px;
+  background: url(../images/bg-section-download.png) center center no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  .container {
+    position: relative;
+  }
+  .text-left {
+    width: 100%;
+    max-width: 300px;
+    padding-top: 132px;
+    .logo {
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 3.2rem;
+      line-height: 110.2%;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    ul {
+      margin-bottom: 42px;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        &:not(:last-child) {
+          margin-bottom: 24px;
+        }
+        .icon {
+          width: 18px;
+          height: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+        p {
+          font-size: 1.8rem;
+          line-height: 178.2%;
+          color: #828792;
+        }
+      }
+    }
+    .btn {
+      padding: 0 40px;
+      line-height: 52px;
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 49px;
+    }
+    .app {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      p {
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 21px;
+        color: #e5e5e5;
+        max-width: 190px;
+        a {
+          text-decoration: underline;
+          transition: color 0.3s ease-in;
+          &:hover {
+            color: $primary-light;
+          }
+        }
+      }
+    }
+  }
+  .image {
+    position: absolute;
+    top: 100px;
+    right: -275px;
+    width: 100%;
+    max-width: 1066px;
+    height: 610px;
+    .img-lg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: float 8s ease-in-out infinite;
+    }
+    .img-sm {
+      position: absolute;
+      right: 53px;
+      bottom: -30px;
+      animation: float 6s ease-in-out infinite;
+    }
+  }
+  @media (max-width: 1024px) {
+    .text-left {
+      max-width: 300px;
+      h2 {
+        font-size: 3.2rem;
+        margin-bottom: 30px;
+      }
+    }
+    .image {
+      right: -350px;
+    }
+  }
+  @media (max-width: 560px) {
+    height: auto;
+    padding-bottom: 50px;
+    .text-left {
+      padding-top: 63px;
+      margin-bottom: 40px;
+      h2 {
+        font-size: 3.2rem;
+      }
+    }
+    .image {
+      position: relative;
+      top: 0;
+      right: 0;
+      height: 270px;
+      .img-sm {
+        right: 0;
+        bottom: 0;
+        max-width: 276px;
+      }
+    }
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

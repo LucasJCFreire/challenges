@@ -1,0 +1,141 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in;
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .box {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 696px;
+    height: 600px;
+    background: url(../images/bg-modal.png) no-repeat #020203 top left;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translatey(50px);
+    transition: transform 0.3s ease-in;
+    .close {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+    }
+    .logo {
+      margin-bottom: 40px;
+      width: 166px;
+    }
+    form {
+      width: 100%;
+      max-width: 426px;
+      .form-group {
+        margin-bottom: 16px;
+        &:nth-child(2) {
+          margin-bottom: 24px;
+        }
+        input[type="text"],
+        input[type="password"] {
+          width: 100%;
+          height: 48px;
+          border: none;
+          border-radius: 4px;
+          padding: 0 16px;
+          font-size: 15px;
+          line-height: 22px;
+          color: #363842;
+          &::placeholder {
+            opacity: 0.6;
+          }
+        }
+        button {
+          width: 100%;
+          justify-content: center;
+          line-height: 52px;
+          font-weight: 600;
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .others-conect {
+      margin-bottom: 35px;
+      p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 16px;
+      }
+      ul {
+        display: flex;
+        gap: 16px;
+        li {
+          button {
+            width: 48px;
+            height: 48px;
+            border-radius: 4px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+    .message-user {
+      p {
+        text-align: center;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-bottom: 16px;
+        a {
+          display: inline-block;
+        }
+      }
+      a {
+        color: #00aeff;
+        font-size: 1.6rem;
+        line-height: 24px;
+        text-decoration: underline;
+        font-weight: 500;
+        text-align: center;
+        display: block;
+        transition: color 0.3s ease-in;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.show-modal {
+  .modal {
+    opacity: 1;
+    pointer-events: all;
+    .box {
+      transform: translateY(0px);
+    }
+  }
+}

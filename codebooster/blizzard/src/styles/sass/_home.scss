@@ -1,0 +1,271 @@
+.s-hero {
+  position: relative;
+  z-index: 2;
+  .slide-principal {
+    width: 100%;
+    height: 736px;
+    .swiper-wrapper {
+      .swiper-slide {
+        padding-top: 207px;
+        &.slide-01 {
+          background: url("../images/bg-banner.jpg") no-repeat top center;
+          background-size: cover;
+        }
+        &.slide-02 {
+          background: url("../images/bg-banner-02.jpg") no-repeat top center;
+          background-size: cover;
+        }
+        &.slide-03 {
+          background: url("../images/bg-banner-03.jpg") no-repeat top center;
+          background-size: cover;
+          .left-content {
+            max-width: 626px;
+          }
+        }
+        &.slide-04 {
+          background: url("../images/bg-banner-04.jpg") no-repeat top center;
+          background-size: cover;
+        }
+        &.slide-05 {
+          background: url("../images/bg-banner-05.jpg") no-repeat top center;
+          background-size: cover;
+        }
+        .container {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+        }
+        .left-content {
+          margin-left: 100px;
+          width: 100%;
+          max-width: 562px;
+          h2 {
+            font-weight: bold;
+            font-size: 6.4rem;
+            line-height: 110.2%;
+            margin-bottom: 16px;
+          }
+          p {
+            font-size: 1.8rem;
+            line-height: 27px;
+            letter-spacing: -0.005em;
+            color: #fff;
+            margin-bottom: 32px;
+          }
+          .btn {
+            padding: 0 38px;
+            line-height: 52px;
+          }
+        }
+        .right-content {
+          width: 100%;
+          max-width: 292px;
+          margin-top: -34px;
+          .logo {
+            width: 100%;
+            max-width: 280px;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 86px;
+          }
+          .video {
+            width: 100%;
+            max-width: 280px;
+            span {
+              display: block;
+              text-align: right;
+              font-size: 1.3rem;
+              font-weight: 600;
+              line-height: 19px;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 16px;
+            }
+            .btn-video {
+              position: relative;
+              width: 100%;
+              height: 158px;
+              border-radius: 4px;
+              overflow: hidden;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .thumb {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: opacity 0.3s ease;
+                &:hover {
+                  &.default {
+                    opacity: 0;
+                  }
+                  &.hover {
+                    opacity: 1;
+                  }
+                  ~ .icon {
+                    display: none;
+                  }
+                }
+                &.default {
+                  opacity: 1;
+                }
+                &.hover {
+                  opacity: 0;
+                }
+              }
+              .icon {
+                position: relative;
+                z-index: 1;
+                width: 51px;
+                height: 51px;
+                border-radius: 50%;
+                background: linear-gradient(136.72deg, rgba(7, 7, 10, 0.86));
+                backdrop-filter: blur(3px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .slide-thumbnail {
+    position: absolute;
+    top: 241px;
+    z-index: 2;
+    left: 8%;
+    height: 320px;
+    .swiper-wrapper {
+      .swiper-slide {
+        margin: 10px 0;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        opacity: 0.4;
+        filter: grayscale(100%);
+        &.disabled {
+          pointer-events: none;
+        }
+        &-thumb-active {
+          filter: grayscale(0%);
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .swiper-progress-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    z-index: 3;
+    .slide-progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      width: auto;
+      opacity: 0;
+      display: block;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $primary-default;
+        width: 0;
+        height: 100%;
+        transition: width 0.1s linear;
+      }
+    }
+    &.active {
+      .slide-progress-bar {
+        opacity: 1;
+      }
+    }
+    &.animate {
+      .slide-progress-bar {
+        &::after {
+          width: 100%;
+          transition: width 5s linear;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    .slide-thumbnail {
+      left: 1%;
+    }
+  }
+  @media (max-width: 991px) {
+    .slide-principal {
+      .swiper-wrapper {
+        .swiper-slide {
+          .left-content {
+            margin-left: 0;
+            width: 60%;
+            h2 {
+              font-size: 4rem;
+            }
+          }
+          .right-content {
+            position: absolute;
+            right: 0;
+            .logo {
+              margin-top: -53px;
+              margin-bottom: 210px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 610px) {
+      .slide-principal {
+        .swiper-wrapper {
+          .swiper-slide {
+            &.slide-01 {
+              background-position-x: 40%;
+            }
+            &.slide-02 {
+              background-position-x: 65%;
+            }
+            &.slide-03 {
+              background-position-x: 60%;
+            }
+            .left-content {
+              margin-left: 0;
+              width: 100%;
+              h2 {
+                font-size: 3rem;
+              }
+            }
+            .right-content {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .slide-thumbnail {
+      left: 15px;
+      top: initial;
+      bottom: 105px;
+      height: 48px;
+    }
+    @media (max-width: 991px) {
+      .slide-thumbnail {
+        left: 15%;
+      }
+    }
+  }
+}
