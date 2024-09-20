@@ -55,45 +55,45 @@
         </td>
     </tr>
     <tr>
-        <td colspan="2">
+        <th colspan="2">
             <code>git clone --no-checkout https://github.com/LucasJCFreire/challenges.git</code>
-        </td>
+        </th>
     </tr>
     <tr>
         <td><p>Navigate to the repository folder</p></td>
         <td><p>Navegue até a pasta do repositório</p></td>
     </tr>
     <tr>
-        <td colspan="2">
+        <th colspan="2">
             <code>cd challenges</code>
-        </td>
+        </th>
     </tr>
     <tr>
         <td><p>Enable sparse-checkout</p></td>
         <td><p>Habilite o sparse-checkout</p></td>
     </tr>
     <tr>
-        <td colspan="2">
+        <th colspan="2">
             <code>git sparse-checkout init --cone</code>
-        </td>
+        </th>
     </tr>
     <tr>
         <td><p>Add the focalpoint folder</p></td>
         <td><p>Adicione a pasta focalpoint</p></td>
     </tr>
     <tr>
-        <td colspan="2">
+        <th colspan="2">
             <code>git sparse-checkout set focalpoint</code>
-        </td>
+        </th>
     </tr>
     <tr>
         <td><p>Checkout the branch</p></td>
         <td><p>Faça o checkout da branch</p></td>
     </tr>
     <tr>
-        <td colspan="2">
+        <th colspan="2">
             <code>git checkout main</code>
-        </td>
+        </th>
     </tr>
     <tr>
         <th><p>Comments and Feedback</p></th>

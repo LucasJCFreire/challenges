@@ -614,7 +614,7 @@
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://challenges-six-xi.vercel.app/"
+        href="pokedex-challenge-react.vercel.app"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
