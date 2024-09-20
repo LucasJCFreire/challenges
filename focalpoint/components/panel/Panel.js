@@ -13,6 +13,7 @@ export default function Panel({ tasks, openDeleteModal, toggleTaskStatus }) {
               id={`task-${task.id}`}
               title={`Clique para alterar o status da tarefa para completa`}
               aria-label={`Alterar status da tarefa ${task.title}`}
+              checked={task.isChecked}
               onChange={() => toggleTaskStatus(task.id, "pending")}
             />
             <label htmlFor={`task-${task.id}`}>{task.title}</label>
@@ -36,7 +37,7 @@ export default function Panel({ tasks, openDeleteModal, toggleTaskStatus }) {
               id={`task-${task.id}`}
               title={`Clique para alterar o status da tarefa para pendente`}
               aria-label={`Alterar status da tarefa ${task.title}`}
-              checked
+              checked={task.isChecked}
               onChange={() => toggleTaskStatus(task.id, "completed")}
             />
             <label htmlFor={`task-${task.id}`}>{task.title}</label>

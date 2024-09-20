@@ -6,11 +6,11 @@ import Modal from "../components/modal/Modal.js";
 
 const defaultTasks = {
   pending: [
-    { id: 1, title: "Lavar as mãos" },
-    { id: 2, title: "Fazer um bolo" },
-    { id: 3, title: "Lavar a louça" },
+    { id: 1, title: "Lavar as mãos", isChecked: false },
+    { id: 2, title: "Fazer um bolo", isChecked: false },
+    { id: 3, title: "Lavar a louça", isChecked: false },
   ],
-  completed: [{ id: 4, title: "Levar o lixo para fora" }],
+  completed: [{ id: 4, title: "Levar o lixo para fora", isChecked: true }],
 };
 
 export default function Home() {
@@ -53,7 +53,10 @@ export default function Home() {
         [currentStatus]: prevTasks[currentStatus].filter(
           (t) => t.id !== taskId
         ),
-        [newStatus]: [...prevTasks[newStatus], task],
+        [newStatus]: [
+          ...prevTasks[newStatus],
+          { ...task, isChecked: !task.isChecked },
+        ],
       }));
     }
   };
