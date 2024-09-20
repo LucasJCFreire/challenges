@@ -6,6 +6,7 @@
     "package.json": true,
     "package-lock.json": true,
     "next.config.mjs": true,
-    ".next": true
+    ".next": true,
+    "vercel.json": true
   }
 }
