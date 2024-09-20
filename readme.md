@@ -3,7 +3,7 @@
     <th colspan="3"><img src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/challenges_main.png" /></th>
   </tr>
   <tr>
-    <th colspan="3">Frontend Mentor - Newbie</th>
+    <th colspan="3">Frontend Mentor</th>
   </tr>
   <tr>
     <th width= '55%'>Description</th>
@@ -446,14 +446,6 @@
     </td>
   </tr>
   <tr>
-    <th colspan="3">Frontend Mentor - Junior</th>
-  </tr>
-  <tr>
-    <th>Description</th>
-    <th>Technologies</th>
-    <th>Links</th>
-  </tr>
-  <tr>
     <td>Advice generator app</td>
     <td>
       <img
@@ -484,8 +476,8 @@
       >
     </td>
   </tr>
-  <tr>
-    <th colspan="3">DevQuest - Dev em Dobro</th>
+    <tr>
+    <th colspan="3">Courses, Bootcamps, and Technical Tests</th>
   </tr>
   <tr>
     <th>Description</th>
@@ -510,11 +502,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/formulario-com-validacao"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/formulario-com-validacao"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/dev-quest/formulario-com-validacao/"
+        href="https://lucasjcfreire.github.io/challenges/formulario-com-validacao/"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -537,11 +529,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/imersao-site-gta"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/imersao-site-gta"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/dev-quest/imersao-site-gta"
+        href="https://lucasjcfreire.github.io/challenges/imersao-site-gta"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -560,11 +552,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/landing-page-agencia-xyz"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/landing-page-agencia-xyz"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/dev-quest/landing-page-agencia-xyz"
+        href="https://lucasjcfreire.github.io/challenges/landing-page-agencia-xyz"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -587,11 +579,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/listagem-pokemon"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/listagem-pokemon"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/dev-quest/listagem-pokemon"
+        href="https://lucasjcfreire.github.io/challenges/listagem-pokemon"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -618,7 +610,7 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/pokedex"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/pokedex"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
@@ -645,11 +637,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/search-github-user"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/search-github-user"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/dev-quest/search-github-user"
+        href="https://lucasjcfreire.github.io/challenges/search-github-user"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -672,11 +664,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/selecao-xmen"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/selecao-xmen"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/dev-quest/selecao-xmen"
+        href="https://lucasjcfreire.github.io/challenges/selecao-xmen"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -688,21 +680,13 @@
       <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/javascript_large.svg" />
     </td>
     <td>
-      <a href="https://github.com/LucasJCFreire/challenges/tree/main/dev-quest/x-devs">
+      <a href="https://github.com/LucasJCFreire/challenges/tree/main/x-devs">
         <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/>
       </a>
-      <a href="https://lucasjcfreire.github.io/challenges/dev-quest/x-devs">
+      <a href="https://lucasjcfreire.github.io/challenges/x-devs">
         <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/>
       </a>
     </td>
-  </tr>
-  <tr>
-    <th colspan="3">B7Web</th>
-  </tr>
-  <tr>
-    <th>Description</th>
-    <th>Technologies</th>
-    <th>Links</th>
   </tr>
   <tr>
     <td>Bateria com teclas</td>
@@ -722,24 +706,16 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/b7-web/bateria-com-teclas"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/bateria-com-teclas"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/b7-web/bateria-com-teclas"
+        href="https://lucasjcfreire.github.io/challenges/bateria-com-teclas"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
   </tr>
-  <tr>
-    <th colspan="3">Hora de codar</th>
-  </tr>
-  <tr>
-    <th>Description</th>
-    <th>Technologies</th>
-    <th>Links</th>
-  </tr>
-  <tr>
+    <tr>
     <td>Clone Spotify com Tailwind</td>
     <td>
       <img
@@ -753,11 +729,11 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/hora-de-codar/clone-spotify-tailwind"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/clone-spotify-tailwind"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/hora-de-codar/clone-spotify-tailwind"
+        href="https://lucasjcfreire.github.io/challenges/clone-spotify-tailwind"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
@@ -770,18 +746,10 @@
       <img width="30px" src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/styled_large.svg" />
     </td>
     <td>
-      <a href="https://github.com/LucasJCFreire/challenges/tree/main/hora-de-codar/costs">
+      <a href="https://github.com/LucasJCFreire/challenges/tree/main/costs">
         <img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/>
       </a>
     </td>
-  </tr>
-  <tr>
-    <th colspan="3">Alura</th>
-  </tr>
-  <tr>
-    <th>Description</th>
-    <th>Technologies</th>
-    <th>Links</th>
   </tr>
   <tr>
     <td>Calmaria Spa</td>
@@ -797,11 +765,88 @@
     </td>
     <td>
       <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/alura/calmaria-spa"
+        href="https://github.com/LucasJCFreire/challenges/tree/main/calmaria-spa"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
       >
       <a
-        href="https://lucasjcfreire.github.io/challenges/alura/calmaria-spa"
+        href="https://lucasjcfreire.github.io/challenges/calmaria-spa"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>Serenatto</td>
+    <td>
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/bootstrap_large.svg"
+      />
+    </td>
+    <td>
+      <a
+        href="https://github.com/LucasJCFreire/challenges/tree/main/serenatto"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
+      >
+      <a
+        href="https://lucasjcfreire.github.io/challenges/serenatto"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>Blizzard</td>
+    <td>
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/sass_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/gulp_large.svg"
+      />
+    </td>
+    <td>
+      <a
+        href="https://github.com/LucasJCFreire/challenges/tree/main/blizzard"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
+      >
+      <a
+        href="https://lucasjcfreire.github.io/challenges/blizzard"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>Focal Point</td>
+    <td>
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/react_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/nextjs_large.svg"
+      />
+      <img
+        width="30px"
+        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/sass_large.svg"
+      />
+    </td>
+    <td>
+      <a
+        href="https://github.com/LucasJCFreire/challenges/tree/main/focalpoint"
+        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
+      >
+      <a
+        href="https://focalpointchallenge.vercel.app/"
         ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
       >
     </td>
