@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 62.5%;
+  background-color: #ffffff;
+}
+
+body {
+  max-width: 1440px;
+  min-width: 320px;
+  width: 100%;
+  min-height: 768px;
+  margin: 0 auto;
+  padding: 24px;
+  overflow: hidden;
+  overflow-y: auto;
+  @media (max-width: 900px) {
+    min-height: 690px;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  gap: 24px;
+}
