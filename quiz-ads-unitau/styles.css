@@ -1,0 +1,118 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #010f1f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  min-height: calc(100vh - 50px);
+  padding: 0 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.progressBar {
+  width: 100%;
+  height: 5px;
+  background-color: #010f1f;
+  margin-top: 10px;
+  transition: ease-in 0.3s;
+}
+
+.quiz {
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.option:hover {
+  background-color: #010f1f;
+  color: #fff;
+}
+
+.correct {
+  background-color: #a4de8c;
+  color: #333;
+}
+
+.wrong {
+  background-color: #ffb3b3;
+  color: #333;
+}
+
+.score {
+  display: none;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.scorePoints {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.scoreMessage {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #4caf50;
+}
+
+.totalCorrect {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #ff5722;
+}
+
+.retryButton {
+  background-color: #010f1f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.retryButton:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #010f1f;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+footer p {
+  margin: 5px 0;
+}
