@@ -589,37 +589,6 @@
     </td>
   </tr>
   <tr>
-    <td>Pokedex</td>
-    <td>
-      <img
-        width="30px"
-        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/html_large.svg"
-      />
-      <img
-        width="30px"
-        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/css_large.svg"
-      />
-      <img
-        width="30px"
-        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/react_large.svg"
-      />
-      <img
-        width="30px"
-        src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/styled_large.svg"
-      />
-    </td>
-    <td>
-      <a
-        href="https://github.com/LucasJCFreire/challenges/tree/main/pokedex"
-        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/repository.svg"/></a
-      >
-      <a
-        href="pokedex-challenge-react.vercel.app"
-        ><img height='30px' src="https://raw.githubusercontent.com/LucasJCFreire/LucasJCFreire/main/assets/images/check.svg"/></a
-      >
-    </td>
-  </tr>
-  <tr>
     <td>Search github user</td>
     <td>
       <img
